@@ -1,0 +1,3 @@
+echo START REASSEMBLING...
+call apktool\apktool b %1
+echo END REASSEMBLING.
