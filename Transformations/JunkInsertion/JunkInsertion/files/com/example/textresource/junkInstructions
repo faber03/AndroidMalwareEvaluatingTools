@@ -1,0 +1,27 @@
+const/4 VV,LL
+move VV,VV
+mul-int/2addr VV,VV
+and-int/2addr VV,VV
+add-int/2addr VV,VV
+or-int/2addr VV,VV
+xor-int/2addr VV,VV
+*
+if-eq VV,VV,:TT
+:TT
+*
+*
+if-ne VV,VV,:TT
+:TT
+*
+*
+if-lt VV,VV,:TT
+:TT
+*
+*
+if-le VV,VV,:TT
+:TT
+*
+*
+if-gt VV,VV,:TT
+:TT
+*
